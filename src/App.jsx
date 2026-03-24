@@ -200,6 +200,14 @@ export default function App() {
             </>
           }
         />
+                <Route
+          path="*"
+          element={
+            <>
+              <News />
+            </>
+          }
+        />
         <Route
           path="/featured-news"
           element={
